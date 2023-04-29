@@ -12,6 +12,8 @@
     z-index: 1;
 }
 
+
+
 .product > img {
     max-height: 200px;
     width:100%;
@@ -39,4 +41,25 @@
 
 .product__rating {
     display: flex;
+}
+
+.snackbar__tile {
+    top:60px !important;
+    z-index : 101;
+}
+
+.snackbar {
+    display: flex;
+}
+.snackbar__img {
+    object-fit: contain;
+    width: 75px;
+    height: 75px;
+    margin-right: 5px;
+}
+.snackbar__text {
+    display: flex;
+    flex-direction: column;
+    inline-size: 150px;
+    overflow-wrap: break-word;
 }
